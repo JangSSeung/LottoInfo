@@ -8,17 +8,91 @@
 
 /* Begin PBXBuildFile section */
 		EDA811812BFA3E5300A3BA3E /* LottoInfoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811802BFA3E5300A3BA3E /* LottoInfoApp.swift */; };
-		EDA811832BFA3E5300A3BA3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811822BFA3E5300A3BA3E /* ContentView.swift */; };
 		EDA811852BFA3E5400A3BA3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA811842BFA3E5400A3BA3E /* Assets.xcassets */; };
 		EDA811882BFA3E5400A3BA3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA811872BFA3E5400A3BA3E /* Preview Assets.xcassets */; };
+		EDA811902BFA3EC000A3BA3E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EDA8118F2BFA3EC000A3BA3E /* Alamofire */; };
+		EDA811922BFA3EC000A3BA3E /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = EDA811912BFA3EC000A3BA3E /* AlamofireDynamic */; };
+		EDA811952BFA3EEA00A3BA3E /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = EDA811942BFA3EEA00A3BA3E /* SwiftSoup */; };
+		EDA811972BFA3FC500A3BA3E /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811962BFA3FC500A3BA3E /* AppView.swift */; };
+		EDA811A12BFA3FE100A3BA3E /* ToastMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811A02BFA3FE100A3BA3E /* ToastMsg.swift */; };
+		EDA811A92BFA400600A3BA3E /* Lotto720.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811A22BFA400500A3BA3E /* Lotto720.swift */; };
+		EDA811AB2BFA400600A3BA3E /* LottoMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811A42BFA400600A3BA3E /* LottoMainView.swift */; };
+		EDA811AD2BFA400600A3BA3E /* LottoSpito1000.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811A62BFA400600A3BA3E /* LottoSpito1000.swift */; };
+		EDA811AE2BFA400600A3BA3E /* Lotto645.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811A72BFA400600A3BA3E /* Lotto645.swift */; };
+		EDA811AF2BFA400600A3BA3E /* LottoSpito2000.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811A82BFA400600A3BA3E /* LottoSpito2000.swift */; };
+		EDA811B22BFA402B00A3BA3E /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811B02BFA402B00A3BA3E /* ApiResponse.swift */; };
+		EDA811B32BFA402B00A3BA3E /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811B12BFA402B00A3BA3E /* ApiService.swift */; };
+		EDA811B82BFA407600A3BA3E /* Int64Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811B62BFA407600A3BA3E /* Int64Extension.swift */; };
+		EDA811B92BFA407600A3BA3E /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811B42BFA407600A3BA3E /* ColorExtension.swift */; };
+		EDA811BA2BFA407600A3BA3E /* ReadSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811B72BFA407600A3BA3E /* ReadSizeExtension.swift */; };
+		EDA811BB2BFA407600A3BA3E /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811B52BFA407600A3BA3E /* FontExtension.swift */; };
+		EDA811C12BFA407A00A3BA3E /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811BE2BFA407A00A3BA3E /* AppViewModel.swift */; };
+		EDA811C22BFA407A00A3BA3E /* Lotto645ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811BC2BFA407A00A3BA3E /* Lotto645ViewModel.swift */; };
+		EDA811C32BFA407A00A3BA3E /* 3DModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811BF2BFA407A00A3BA3E /* 3DModeling.swift */; };
+		EDA811C42BFA407A00A3BA3E /* Lotto720ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811BD2BFA407A00A3BA3E /* Lotto720ViewModel.swift */; };
+		EDA811C52BFA407A00A3BA3E /* LottoMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811C02BFA407A00A3BA3E /* LottoMainViewModel.swift */; };
+		EDA811CC2BFA408400A3BA3E /* BaseHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811C92BFA408400A3BA3E /* BaseHeader.swift */; };
+		EDA811CD2BFA408400A3BA3E /* ButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811C82BFA408400A3BA3E /* ButtonCustom.swift */; };
+		EDA811CE2BFA408400A3BA3E /* BaseButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811CA2BFA408400A3BA3E /* BaseButtonStyle.swift */; };
+		EDA811CF2BFA408400A3BA3E /* BaseDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811CB2BFA408400A3BA3E /* BaseDivider.swift */; };
+		EDA811D02BFA408400A3BA3E /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811C72BFA408400A3BA3E /* BaseView.swift */; };
+		EDA811D12BFA408400A3BA3E /* FontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811C62BFA408400A3BA3E /* FontModifier.swift */; };
+		EDA811D42BFA408A00A3BA3E /* BaseTextFieldRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811D32BFA408A00A3BA3E /* BaseTextFieldRepresentable.swift */; };
+		EDA811D52BFA408A00A3BA3E /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811D22BFA408A00A3BA3E /* BaseTextField.swift */; };
+		EDA811DA2BFA409C00A3BA3E /* FontWeightEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811D92BFA409C00A3BA3E /* FontWeightEnum.swift */; };
+		EDA811DD2BFA40A100A3BA3E /* CommonUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811DB2BFA40A100A3BA3E /* CommonUse.swift */; };
+		EDA811DE2BFA40A100A3BA3E /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811DC2BFA40A100A3BA3E /* Common.swift */; };
+		EDA811E22BFA40AB00A3BA3E /* KeyboardManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811E02BFA40AB00A3BA3E /* KeyboardManage.swift */; };
+		EDA811E32BFA40AB00A3BA3E /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811DF2BFA40AB00A3BA3E /* UIApplicationExtension.swift */; };
+		EDA811E42BFA40AB00A3BA3E /* SafeAreaInsetsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811E12BFA40AB00A3BA3E /* SafeAreaInsetsKey.swift */; };
+		EDA811E82BFA40B800A3BA3E /* Lotto720Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811E52BFA40B800A3BA3E /* Lotto720Data.swift */; };
+		EDA811E92BFA40B800A3BA3E /* MessageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811E72BFA40B800A3BA3E /* MessageData.swift */; };
+		EDA811EA2BFA40B800A3BA3E /* LottoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA811E62BFA40B800A3BA3E /* LottoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EDA8117D2BFA3E5300A3BA3E /* LottoInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottoInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA811802BFA3E5300A3BA3E /* LottoInfoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoInfoApp.swift; sourceTree = "<group>"; };
-		EDA811822BFA3E5300A3BA3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDA811842BFA3E5400A3BA3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDA811872BFA3E5400A3BA3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDA811962BFA3FC500A3BA3E /* AppView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		EDA811A02BFA3FE100A3BA3E /* ToastMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastMsg.swift; sourceTree = "<group>"; };
+		EDA811A22BFA400500A3BA3E /* Lotto720.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lotto720.swift; sourceTree = "<group>"; };
+		EDA811A42BFA400600A3BA3E /* LottoMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottoMainView.swift; sourceTree = "<group>"; };
+		EDA811A62BFA400600A3BA3E /* LottoSpito1000.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottoSpito1000.swift; sourceTree = "<group>"; };
+		EDA811A72BFA400600A3BA3E /* Lotto645.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lotto645.swift; sourceTree = "<group>"; };
+		EDA811A82BFA400600A3BA3E /* LottoSpito2000.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottoSpito2000.swift; sourceTree = "<group>"; };
+		EDA811B02BFA402B00A3BA3E /* ApiResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		EDA811B12BFA402B00A3BA3E /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		EDA811B42BFA407600A3BA3E /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		EDA811B52BFA407600A3BA3E /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		EDA811B62BFA407600A3BA3E /* Int64Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int64Extension.swift; sourceTree = "<group>"; };
+		EDA811B72BFA407600A3BA3E /* ReadSizeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadSizeExtension.swift; sourceTree = "<group>"; };
+		EDA811BC2BFA407A00A3BA3E /* Lotto645ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotto645ViewModel.swift; sourceTree = "<group>"; };
+		EDA811BD2BFA407A00A3BA3E /* Lotto720ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotto720ViewModel.swift; sourceTree = "<group>"; };
+		EDA811BE2BFA407A00A3BA3E /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		EDA811BF2BFA407A00A3BA3E /* 3DModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DModeling.swift; sourceTree = "<group>"; };
+		EDA811C02BFA407A00A3BA3E /* LottoMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoMainViewModel.swift; sourceTree = "<group>"; };
+		EDA811C62BFA408400A3BA3E /* FontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModifier.swift; sourceTree = "<group>"; };
+		EDA811C72BFA408400A3BA3E /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		EDA811C82BFA408400A3BA3E /* ButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCustom.swift; sourceTree = "<group>"; };
+		EDA811C92BFA408400A3BA3E /* BaseHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseHeader.swift; sourceTree = "<group>"; };
+		EDA811CA2BFA408400A3BA3E /* BaseButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonStyle.swift; sourceTree = "<group>"; };
+		EDA811CB2BFA408400A3BA3E /* BaseDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDivider.swift; sourceTree = "<group>"; };
+		EDA811D22BFA408A00A3BA3E /* BaseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
+		EDA811D32BFA408A00A3BA3E /* BaseTextFieldRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextFieldRepresentable.swift; sourceTree = "<group>"; };
+		EDA811D62BFA409600A3BA3E /* NanumSquareOTF_acB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareOTF_acB.otf; sourceTree = "<group>"; };
+		EDA811D72BFA409600A3BA3E /* NanumSquareOTF_acEB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareOTF_acEB.otf; sourceTree = "<group>"; };
+		EDA811D82BFA409600A3BA3E /* NanumSquareOTF_acR.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareOTF_acR.otf; sourceTree = "<group>"; };
+		EDA811D92BFA409C00A3BA3E /* FontWeightEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWeightEnum.swift; sourceTree = "<group>"; };
+		EDA811DB2BFA40A100A3BA3E /* CommonUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUse.swift; sourceTree = "<group>"; };
+		EDA811DC2BFA40A100A3BA3E /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		EDA811DF2BFA40AB00A3BA3E /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		EDA811E02BFA40AB00A3BA3E /* KeyboardManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManage.swift; sourceTree = "<group>"; };
+		EDA811E12BFA40AB00A3BA3E /* SafeAreaInsetsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetsKey.swift; sourceTree = "<group>"; };
+		EDA811E52BFA40B800A3BA3E /* Lotto720Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotto720Data.swift; sourceTree = "<group>"; };
+		EDA811E62BFA40B800A3BA3E /* LottoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoData.swift; sourceTree = "<group>"; };
+		EDA811E72BFA40B800A3BA3E /* MessageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +100,176 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA811902BFA3EC000A3BA3E /* Alamofire in Frameworks */,
+				EDA811922BFA3EC000A3BA3E /* AlamofireDynamic in Frameworks */,
+				EDA811952BFA3EEA00A3BA3E /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED4BB95D2BFA5813001C12CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED4BB95F2BFA58D8001C12CB /* 01_Base */,
+				ED4BB9632BFA59F6001C12CB /* 02_Lotto */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED4BB95E2BFA58BE001C12CB /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				EDA811D62BFA409600A3BA3E /* NanumSquareOTF_acB.otf */,
+				EDA811D72BFA409600A3BA3E /* NanumSquareOTF_acEB.otf */,
+				EDA811D82BFA409600A3BA3E /* NanumSquareOTF_acR.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		ED4BB95F2BFA58D8001C12CB /* 01_Base */ = {
+			isa = PBXGroup;
+			children = (
+				EDA811CA2BFA408400A3BA3E /* BaseButtonStyle.swift */,
+				EDA811CB2BFA408400A3BA3E /* BaseDivider.swift */,
+				EDA811C92BFA408400A3BA3E /* BaseHeader.swift */,
+				EDA811C72BFA408400A3BA3E /* BaseView.swift */,
+			);
+			path = 01_Base;
+			sourceTree = "<group>";
+		};
+		ED4BB9602BFA5980001C12CB /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				ED4BB9662BFA5B66001C12CB /*  Enum */,
+				ED4BB96C2BFA5DE4001C12CB /* 3DShapeModeling */,
+				ED4BB9682BFA5C56001C12CB /* Button */,
+				ED4BB9612BFA598D001C12CB /* Extension */,
+				ED4BB95E2BFA58BE001C12CB /* Font */,
+				ED4BB9652BFA5B1C001C12CB /* Modifier */,
+				ED4BB9622BFA59A5001C12CB /* TextField */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		ED4BB9612BFA598D001C12CB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EDA811B42BFA407600A3BA3E /* ColorExtension.swift */,
+				EDA811B52BFA407600A3BA3E /* FontExtension.swift */,
+				EDA811B62BFA407600A3BA3E /* Int64Extension.swift */,
+				EDA811B72BFA407600A3BA3E /* ReadSizeExtension.swift */,
+				EDA811DF2BFA40AB00A3BA3E /* UIApplicationExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		ED4BB9622BFA59A5001C12CB /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				EDA811D22BFA408A00A3BA3E /* BaseTextField.swift */,
+				EDA811D32BFA408A00A3BA3E /* BaseTextFieldRepresentable.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		ED4BB9632BFA59F6001C12CB /* 02_Lotto */ = {
+			isa = PBXGroup;
+			children = (
+				EDA811A72BFA400600A3BA3E /* Lotto645.swift */,
+				EDA811A22BFA400500A3BA3E /* Lotto720.swift */,
+				EDA811A42BFA400600A3BA3E /* LottoMainView.swift */,
+				EDA811A62BFA400600A3BA3E /* LottoSpito1000.swift */,
+				EDA811A82BFA400600A3BA3E /* LottoSpito2000.swift */,
+				ED4BB9642BFA5A12001C12CB /* VM */,
+			);
+			path = 02_Lotto;
+			sourceTree = "<group>";
+		};
+		ED4BB9642BFA5A12001C12CB /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				EDA811BC2BFA407A00A3BA3E /* Lotto645ViewModel.swift */,
+				EDA811BD2BFA407A00A3BA3E /* Lotto720ViewModel.swift */,
+				EDA811C02BFA407A00A3BA3E /* LottoMainViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		ED4BB9652BFA5B1C001C12CB /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				EDA811C62BFA408400A3BA3E /* FontModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		ED4BB9662BFA5B66001C12CB /*  Enum */ = {
+			isa = PBXGroup;
+			children = (
+				EDA811D92BFA409C00A3BA3E /* FontWeightEnum.swift */,
+			);
+			path = " Enum";
+			sourceTree = "<group>";
+		};
+		ED4BB9672BFA5C36001C12CB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EDA811DC2BFA40A100A3BA3E /* Common.swift */,
+				EDA811DB2BFA40A100A3BA3E /* CommonUse.swift */,
+				EDA811E02BFA40AB00A3BA3E /* KeyboardManage.swift */,
+				EDA811E12BFA40AB00A3BA3E /* SafeAreaInsetsKey.swift */,
+				EDA811A02BFA3FE100A3BA3E /* ToastMsg.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		ED4BB9682BFA5C56001C12CB /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				EDA811C82BFA408400A3BA3E /* ButtonCustom.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		ED4BB9692BFA5C7E001C12CB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EDA811E52BFA40B800A3BA3E /* Lotto720Data.swift */,
+				EDA811E62BFA40B800A3BA3E /* LottoData.swift */,
+				EDA811E72BFA40B800A3BA3E /* MessageData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		ED4BB96A2BFA5CCF001C12CB /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				EDA811B02BFA402B00A3BA3E /* ApiResponse.swift */,
+				EDA811B12BFA402B00A3BA3E /* ApiService.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		ED4BB96B2BFA5DA1001C12CB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EDA811962BFA3FC500A3BA3E /* AppView.swift */,
+				EDA811BE2BFA407A00A3BA3E /* AppViewModel.swift */,
+				EDA811802BFA3E5300A3BA3E /* LottoInfoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ED4BB96C2BFA5DE4001C12CB /* 3DShapeModeling */ = {
+			isa = PBXGroup;
+			children = (
+				EDA811BF2BFA407A00A3BA3E /* 3DModeling.swift */,
+			);
+			path = 3DShapeModeling;
+			sourceTree = "<group>";
+		};
 		EDA811742BFA3E5300A3BA3E = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +289,14 @@
 		EDA8117F2BFA3E5300A3BA3E /* LottoInfo */ = {
 			isa = PBXGroup;
 			children = (
-				EDA811802BFA3E5300A3BA3E /* LottoInfoApp.swift */,
-				EDA811822BFA3E5300A3BA3E /* ContentView.swift */,
-				EDA811842BFA3E5400A3BA3E /* Assets.xcassets */,
 				EDA811862BFA3E5400A3BA3E /* Preview Content */,
+				EDA811842BFA3E5400A3BA3E /* Assets.xcassets */,
+				ED4BB96A2BFA5CCF001C12CB /* Api */,
+				ED4BB96B2BFA5DA1001C12CB /* App */,
+				ED4BB9672BFA5C36001C12CB /* Common */,
+				ED4BB9602BFA5980001C12CB /* Component */,
+				ED4BB9692BFA5C7E001C12CB /* Data */,
+				ED4BB95D2BFA5813001C12CB /* View */,
 			);
 			path = LottoInfo;
 			sourceTree = "<group>";
@@ -83,6 +325,11 @@
 			dependencies = (
 			);
 			name = LottoInfo;
+			packageProductDependencies = (
+				EDA8118F2BFA3EC000A3BA3E /* Alamofire */,
+				EDA811912BFA3EC000A3BA3E /* AlamofireDynamic */,
+				EDA811942BFA3EEA00A3BA3E /* SwiftSoup */,
+			);
 			productName = LottoInfo;
 			productReference = EDA8117D2BFA3E5300A3BA3E /* LottoInfo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +358,10 @@
 				Base,
 			);
 			mainGroup = EDA811742BFA3E5300A3BA3E;
+			packageReferences = (
+				EDA8118E2BFA3EC000A3BA3E /* XCRemoteSwiftPackageReference "Alamofire" */,
+				EDA811932BFA3EEA00A3BA3E /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = EDA8117E2BFA3E5300A3BA3E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +388,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDA811832BFA3E5300A3BA3E /* ContentView.swift in Sources */,
+				EDA811DE2BFA40A100A3BA3E /* Common.swift in Sources */,
+				EDA811BB2BFA407600A3BA3E /* FontExtension.swift in Sources */,
+				EDA811E82BFA40B800A3BA3E /* Lotto720Data.swift in Sources */,
+				EDA811AF2BFA400600A3BA3E /* LottoSpito2000.swift in Sources */,
+				EDA811D52BFA408A00A3BA3E /* BaseTextField.swift in Sources */,
+				EDA811C22BFA407A00A3BA3E /* Lotto645ViewModel.swift in Sources */,
+				EDA811B82BFA407600A3BA3E /* Int64Extension.swift in Sources */,
+				EDA811E32BFA40AB00A3BA3E /* UIApplicationExtension.swift in Sources */,
+				EDA811AD2BFA400600A3BA3E /* LottoSpito1000.swift in Sources */,
+				EDA811AB2BFA400600A3BA3E /* LottoMainView.swift in Sources */,
+				EDA811CF2BFA408400A3BA3E /* BaseDivider.swift in Sources */,
+				EDA811EA2BFA40B800A3BA3E /* LottoData.swift in Sources */,
+				EDA811E22BFA40AB00A3BA3E /* KeyboardManage.swift in Sources */,
+				EDA811D12BFA408400A3BA3E /* FontModifier.swift in Sources */,
+				EDA811C42BFA407A00A3BA3E /* Lotto720ViewModel.swift in Sources */,
+				EDA811BA2BFA407600A3BA3E /* ReadSizeExtension.swift in Sources */,
+				EDA811B22BFA402B00A3BA3E /* ApiResponse.swift in Sources */,
+				EDA811AE2BFA400600A3BA3E /* Lotto645.swift in Sources */,
+				EDA811D42BFA408A00A3BA3E /* BaseTextFieldRepresentable.swift in Sources */,
+				EDA811C32BFA407A00A3BA3E /* 3DModeling.swift in Sources */,
+				EDA811D02BFA408400A3BA3E /* BaseView.swift in Sources */,
+				EDA811DD2BFA40A100A3BA3E /* CommonUse.swift in Sources */,
+				EDA811CC2BFA408400A3BA3E /* BaseHeader.swift in Sources */,
+				EDA811E42BFA40AB00A3BA3E /* SafeAreaInsetsKey.swift in Sources */,
+				EDA811B32BFA402B00A3BA3E /* ApiService.swift in Sources */,
+				EDA811C12BFA407A00A3BA3E /* AppViewModel.swift in Sources */,
+				EDA811CE2BFA408400A3BA3E /* BaseButtonStyle.swift in Sources */,
+				EDA811DA2BFA409C00A3BA3E /* FontWeightEnum.swift in Sources */,
+				EDA811A92BFA400600A3BA3E /* Lotto720.swift in Sources */,
 				EDA811812BFA3E5300A3BA3E /* LottoInfoApp.swift in Sources */,
+				EDA811972BFA3FC500A3BA3E /* AppView.swift in Sources */,
+				EDA811E92BFA40B800A3BA3E /* MessageData.swift in Sources */,
+				EDA811A12BFA3FE100A3BA3E /* ToastMsg.swift in Sources */,
+				EDA811C52BFA407A00A3BA3E /* LottoMainViewModel.swift in Sources */,
+				EDA811CD2BFA408400A3BA3E /* ButtonCustom.swift in Sources */,
+				EDA811B92BFA407600A3BA3E /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +622,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EDA8118E2BFA3EC000A3BA3E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		EDA811932BFA3EEA00A3BA3E /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EDA8118F2BFA3EC000A3BA3E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDA8118E2BFA3EC000A3BA3E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		EDA811912BFA3EC000A3BA3E /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDA8118E2BFA3EC000A3BA3E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		EDA811942BFA3EEA00A3BA3E /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDA811932BFA3EEA00A3BA3E /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EDA811752BFA3E5300A3BA3E /* Project object */;
 }
